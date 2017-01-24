@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AD0E57C31E37E43000EB232F /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0E57C21E37E43000EB232F /* FancyView.swift */; };
 		AD0E57C51E37E4B900EB232F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0E57C41E37E4B900EB232F /* Constants.swift */; };
+		ADB965881E37EC73008CFC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB965861E37EC73008CFC9C /* Main.storyboard */; };
 		ADDE04971E36B096002DCDB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDE04961E36B096002DCDB8 /* AppDelegate.swift */; };
 		ADDE04991E36B096002DCDB8 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDE04981E36B096002DCDB8 /* SignInVC.swift */; };
 		ADDE049E1E36B096002DCDB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDE049D1E36B096002DCDB8 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		39C951A424536079272068D6 /* Pods-devslopes-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-social/Pods-devslopes-social.release.xcconfig"; sourceTree = "<group>"; };
 		AD0E57C21E37E43000EB232F /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		AD0E57C41E37E4B900EB232F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ADB965871E37EC73008CFC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADDE04931E36B096002DCDB8 /* devslopes-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devslopes-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDE04961E36B096002DCDB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADDE04981E36B096002DCDB8 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				ADFADFF01E36B1DE00923DB1 /* View */,
 				ADFADFEF1E36B1DA00923DB1 /* Model */,
 				ADDE04961E36B096002DCDB8 /* AppDelegate.swift */,
+				ADB965861E37EC73008CFC9C /* Main.storyboard */,
 				ADDE049D1E36B096002DCDB8 /* Assets.xcassets */,
 				ADDE049F1E36B096002DCDB8 /* LaunchScreen.storyboard */,
 				ADDE04A21E36B096002DCDB8 /* Info.plist */,
@@ -192,6 +195,7 @@
 				ADDE04A11E36B096002DCDB8 /* LaunchScreen.storyboard in Resources */,
 				ADDE04A91E36B0B7002DCDB8 /* GoogleService-Info.plist in Resources */,
 				ADDE049E1E36B096002DCDB8 /* Assets.xcassets in Resources */,
+				ADB965881E37EC73008CFC9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +264,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		ADB965861E37EC73008CFC9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB965871E37EC73008CFC9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		ADDE049F1E36B096002DCDB8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
