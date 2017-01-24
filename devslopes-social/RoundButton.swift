@@ -1,17 +1,15 @@
 //
-//  FancyView.swift
+//  RoundButton.swift
 //  devslopes-social
 //
 //  Created by Tina Dimler on 1/24/17.
 //  Copyright © 2017 Tina Loomis. All rights reserved.
-//  UIViewStyle
+//  Button Style
 
 import UIKit
 
-class FancyView: UIView {
+class RoundButton: UIButton {
 
-    
-    // Called after all objects have been initialized
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -19,6 +17,16 @@ class FancyView: UIView {
         layer.shadowOpacity = 0.8
         layer.shadowRadius = 5.0
         layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
+        imageView?.contentMode = .scaleAspectFit
+        
+        
+    }
+    
+    // Round button - if you put it in the other method than only rounded
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        layer.cornerRadius = self.frame.width / 2
     }
 
 }
